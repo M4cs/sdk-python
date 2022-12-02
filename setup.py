@@ -12,12 +12,12 @@ here = path.abspath(path.dirname(__file__))
 
 
 setup(
-    name='authorizenet',
+    name='authorizenet-pyxb-new',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.1.4',
+    version='1.1.6',
 
     description='Authorize.Net Python SDK',
 
@@ -63,7 +63,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['pyxb==1.2.5', 'lxml==4.*', 'requests==2.*'],
+    install_requires=['pyxb-new==1.2.8', 'lxml==4.*', 'requests==2.*'],
     #install_requires=['nose'],
     #install_requires=['nosetests'],
     #install_requires=['mock'],
