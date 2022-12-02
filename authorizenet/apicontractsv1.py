@@ -16,11 +16,6 @@ import pyxb.utils.six as _six
 # Unique identifier for bindings created at the same time
 _GenerationUID = pyxb.utils.utility.UniqueIdentifier('urn:uuid:6a124e8c-3f7c-11eb-bcdb-847beb3cc146')
 
-# Version of PyXB used to generate the bindings
-_PyXBVersion = '1.2.8'
-# Generated bindings are not compatible across PyXB versions
-if pyxb.__version__ != _PyXBVersion:
-    raise pyxb.PyXBVersionError(_PyXBVersion)
 
 # A holder for module-level binding classes so we can access them from
 # inside class definitions where property names may conflict.
