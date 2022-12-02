@@ -17,7 +17,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.1.6',
+    version='1.1.7',
 
     description='Authorize.Net Python SDK',
 
@@ -27,7 +27,8 @@ setup(
     # Author details
     author='Authorize.Net Developer',
     author_email='developer@authorize.net',
-
+    maintainer='Max Bridgland',
+    maintainer_email='me@maxbridgland.com',
     # Choose your license
     license='proprietary',
 
